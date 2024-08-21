@@ -1,0 +1,1 @@
+INSERT INTO tb_palavra(palavra, dificuldade) VALUES ('teste', 'facil')

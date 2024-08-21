@@ -3,8 +3,11 @@ package com.jntn11.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "tb_usuarios")
+@Table(name = "tb_palavra")
 public class Palavra {
+
+    public Palavra() {
+    }
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,7 +18,7 @@ public class Palavra {
     String palavra;
 
     @Column(nullable = false, name = "dificuldade")
-    Integer dificuldade;
+    String dificuldade;
 
     public Long getId() {
         return id;
@@ -33,11 +36,11 @@ public class Palavra {
         this.palavra = palavra;
     }
 
-    public Integer getDificuldade() {
+    public String getDificuldade() {
         return dificuldade;
     }
 
-    public void setDificuldade(Integer dificuldade) {
+    public void setDificuldade(String dificuldade) {
         this.dificuldade = dificuldade;
     }
 }

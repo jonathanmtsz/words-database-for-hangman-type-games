@@ -23,7 +23,6 @@ public class PalavraImpl implements PalavraService {
     public Palavra adicionarPalavra(Palavra palavra) {
         return null;
     }
-
     @Override
     public Palavra atualizarPalavra(Long id, Palavra palavra) {
         return null;
