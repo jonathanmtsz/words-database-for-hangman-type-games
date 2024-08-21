@@ -1,6 +1,5 @@
 package com.jntn11.controller;
 
-import com.jntn11.model.Palavra;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
